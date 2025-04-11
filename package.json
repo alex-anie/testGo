@@ -1,0 +1,14 @@
+{
+  "name": "landing-page-tests",
+  "version": "1.0.0",
+  "description": "Cypress tests for landing page",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "start": "http-server ./ -p 5500"
+  },
+  "devDependencies": {
+    "cypress": "^12.14.0",
+    "http-server": "^14.1.1"
+  }
+}
